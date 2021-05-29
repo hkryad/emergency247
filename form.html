@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title> profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+  <header role="banner">
+    <div class="container-fluid ">
+    <nav class="navbar navbar-expand-md navbar-dark  fixed-top ">
+      <a class="navbar-brand " style="margin-top: -1%;" href="index.html"><img src="imgs//pp//ll.jpg" alt="" srcset=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav fs-3">
+              <li class="nav-item">
+                  <a class="nav-link active " href="#">الصفحة الرئيسية</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">مستجدات كورونا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >الإرشادات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >تواصل معنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" > انشاء حساب</a>
+            </li>
+          </ul>
+          <div class="d-flex me-auto" style="margin-left: 2%;">
+            <button type="button" class="navbtn rounded-pill" data-bs-toggle="modal" data-bs-target="#modalnav"> تسجيل الدخول</button>
+            <div class="modal modalnavv" id="modalnav" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">الاسم:</label>
+                        <input type="text" class="form-control brdr" id="recipient-name">
+                        <div class="br"></div>
+
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label"> كلمة المرور</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+  </div>
+  </header>
+      <div class="clear"></div>
+   <main>
+      <!-- template body -->
+      <div class="container-fluid template1">
+        <img class="img-fluid  mx-auto d-block icon-img" width="20%" src="imgs/profile.png" alt="">
+       <i class="fa fa-plus h4-rightPart "></i> 
+        <form action="action_page.php" >
+            <div class="action_page mx-auto">
+            <label for="name"></label>
+            <input type="text1" id="name" name="name" placeholder=" الإسم">
+        
+            <label for="text2"></label>
+            <input type="text2" id="inputfield" name="text" placeholder="الرقم القومي" onkeypress="return AllowOnlyNumbers(event)">
+             
+
+            <select class="form-select1" id="validationTooltip04" required>
+              <option selected disabled value=""><span class="sp-op">المنطقة</span></option>
+              <option value="0">فيصل</option>
+              <option value="1">شبرا</option>
+              <option value="2">الهرم</option>
+              <option value="3">مصر الجديدة</option>
+              <option value="4">عين شمس</option>
+              <option value="5">الدقي</option>
+              <option value="6">العباسية</option>
+              <option value="7">كبري القبة</option>
+            </select>
+           
+         <div class="multiselectionsection">
+            <select class="form-select2 rounded-pill" id="validationTooltip04" required>
+                <option selected disabled value=""><span class="sp-op">الجنس</span></option>
+                <option value="0">ذكر</option>
+                <option value="1">أنثى</option>
+              </select>
+              <select class="form-select2 rounded-pill" id="validationTooltip04" required>
+                <option selected disabled value=""><span class="sp-op">الجنسية </span></option>
+                <option value="0">مصري</option>
+                <option value="2">سوري</option>
+                <option value="3">عراقي</option>
+                <option value="4">سوداني</option>
+                <option value="5">أفريقي</option>
+              </select>
+              <select class="form-select2 rounded-pill" id="validationTooltip04" required>
+                <option selected disabled value=""><span class="sp-op">السن</span></option>
+                <option value="0">19</option>
+                <option value="1">20</option>
+                <option value="2">21</option>
+                <option value="3">22</option>
+                <option value="4">23</option>
+                <option value="5">24</option>
+                <option value="6">25</option>
+                <option value="7">26</option>
+                <option value="8">17</option>
+                <option value="9">28</option>
+                <option value="10">29</option>
+                <option value="11">30</option>
+              </select>
+              <select class="form-select2 rounded-pill" id="validationTooltip04" required>
+                <option selected disabled value=""><span class="sp-op">نوع التطوع</span></option>
+                <option value="0">دم</option>
+                <option value="1">سيارة</option>
+                <option value="2">علاج</option>
+                <option value="3">فلوس</option>
+              </select>
+         </div>
+         <label for="text3"></label>
+         <input type="text3" id="inputfield" name="text" placeholder="رقم التليفون" onkeypress="return AllowOnlyNumbers(event)">
+
+         <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="البريد الإلكتروني">
+          
+
+          <label for="pass"></label>
+          <input type="password" id="pass" name="password" placeholder="كلمة المرور (يتطلب 8 أحرف علي الأقل)"
+           minlength="8" required>
+
+           <label for="pass"></label>
+          <input type="password" id="pass" name="password" placeholder="تأكيد كلمة المرور"
+           minlength="8" required>
+            </div>
+          </form>  
+          <div class="btn1">
+            <button type="button " class="btn rounded-pill fs-4" >إنشاء حساب </button>
+          </div>
+            </div>
+            
+      <!-- end of template body -->
+   </main>
+    <!--start footer section-->
+    <footer>
+      <div class="container-fluid footer px-0 mx-0">
+          <div class="row footerbg px-0 mx-0 ">
+          <div class="col-2 ic px-0 mx-0">
+        <div class="media px-0 mx-0">
+          <ul>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li class="text-center"><a href="#" class="fa fa-envelope"></a></li>
+            <li><a href="#" class="fa fa-phone"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            
+            
+          </ul>
+         </div>
+         </div>
+        
+        <div class="col-3 text-left px-0 mx-0">
+            <ul class="footer-list">
+               <a href="indexx.html" style="text-decoration: none;"> <li class="fa fa-angle-up"><p class="footer-p"> الصفحة الرئيسية</p></li></a>
+                <a href="#" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">شروط التطوع</p></li></a>
+                <a href="#" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">تطوع معنا</p></li></a>
+                <a href="#" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">تواصل معنا</p></li></a>
+                <a href="#" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">مسجدات فيروس كرونا</p></li></a>
+            </ul>
+        </div>
+        <div class="col-2 mt-4 px-0 mx-0">
+          <ul class="footer-list">
+            <a href="template1.css" style="text-decoration: none;"><li class="fa fa-angle-up mb-2"><p class="footer-p"> زلازل</p></li></a>
+            <a href="template2.css" style="text-decoration: none;">  <li class="fa fa-angle-up  mb-2"><p class="footer-p">ضباب</p></li></a>
+            <a href="template3.html" style="text-decoration: none;"> <li class="fa fa-angle-up  mb-2"><p class="footer-p">فيضانات</p></li></a>
+            <a href="template4.html" style="text-decoration: none;"> <li class="fa fa-angle-up  mb-2"><p class="footer-p">عواصف رملية</p></li></a>
+            <a href="template5.html"style="text-decoration: none;"> <li class="fa fa-angle-up  mb-2"><p class="footer-p">فيروس كرونا</p></li></a>
+        </ul>
+        </div>
+        <div class="col-3 px-0 mx-0">
+            <ul class="footer-list">
+              <a href="template6.html" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p"> معالجة الحروق</p></li></a>
+              <a href="template7.html" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">معالجة الكسور</p></li></a>
+              <a href="template8.html" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">نقل المصابين</p></li></a>
+              <a href="template9.html" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">إيقاف النزيف</p></li></a>
+              <a href="template10.html" style="text-decoration: none;"><li class="fa fa-angle-up"><p class="footer-p">إنعاش المصابين بأزمات قلبية</p></li></a>
+          </ul>
+        </div>
+        <div class="col-2">
+          <img src="imgs//pp//l.jpg" class="footerlogo" alt="" srcset="">
+        </div>
+       </div>
+      </div>
+        
+     </footer>
+    <!--end footer section-->
+    <script>
+       function AllowOnlyNumbers(e) {
+       e = (e) ? e : window.event;
+       var clipboardData = e.clipboardData ? e.clipboardData : window.clipboardData;
+       var key = e.keyCode ? e.keyCode : e.which ? e.which : e.charCode;
+       var str = (e.type && e.type == "paste") ? clipboardData.getData('Text') : String.fromCharCode(key);
+
+      return (/^\d+$/.test(str));}
+     
+    </script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>
